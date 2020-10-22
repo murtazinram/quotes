@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 200px;
+    min-width: 200px;
+    width: 100%;
+    height: 100%;
+}
+.box{
+    height: 1fr;
+    width: 1fr;
+}
+.quote {
+    font: 1.2rem Georgia, serif;
+    margin: 0;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+    margin: 1em;
+}
+.quote figcaption {
+    text-align: center;
+}
+.btn {
+    height: 70px;
+    width: 70px;
+    border: 0;
+    border-radius: 50%;
+    background-image: url("https://www.pngarts.com/files/7/Update-Button-PNG-Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: grayscale(.8);
+    margin: 10px;
+}
+.btn:hover {
+    filter: grayscale(.2);
+}
+.btn:active,
+.btn:focus {
+    outline: 0;
+}
+.btn:active{
+    transform: scale(1.02)
+}
